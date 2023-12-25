@@ -14,6 +14,14 @@ const pathnames = [
     path: "/catalog",
     label: "Catalogue",
   },
+  {
+    path: "/aboutus",
+    label: "About us",
+  },
+  {
+    path: "/submit",
+    label: "Submit",
+  },
 ];
 
 function Navbar() {

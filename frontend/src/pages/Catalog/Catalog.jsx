@@ -12,11 +12,14 @@ function Catalog() {
       .catch((error) => console.error(error));
   }, []);
   return (
-    <div className="catalog">
-      <div className="carrousel">
+    <main className="catalog">
+      <section className="carrousel">
         <ArtCarrousel />
-      </div>
-      <div className="cards" style={{ overflow: "scroll", overflowX: "clip" }}>
+      </section>
+      <section
+        className="cards"
+        style={{ overflow: "scroll", overflowX: "clip" }}
+      >
         {arts
           ? arts.map((art) => (
               <ArtCard
@@ -33,8 +36,8 @@ function Catalog() {
               />
             ))
           : "Loading"}
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 

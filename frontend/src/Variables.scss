@@ -12,3 +12,9 @@ $dark-main: #4f654e;
 $darkest-main: rgb(56, 52, 46);
 $accent: #ffd353;
 $white: #a4a1a0;
+//SHADOW OUTLINE
+$outline:
+  8px 0px 0px $darkest-main,
+  -8px 0px 0px $dark-main,
+  0px 8px 0px $darkest-main,
+  0px -8px 0px $dark-main;

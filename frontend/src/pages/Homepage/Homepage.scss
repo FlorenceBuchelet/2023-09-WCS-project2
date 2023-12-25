@@ -1,8 +1,4 @@
-//IMPORT FONT-FAMILY OF THE APP
-@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lemon&family=Sedgwick+Ave&display=swap");
+@import "../../Variables.scss";
 
 @font-face {
   font-family: "attackG";
@@ -19,21 +15,7 @@
 }
 
 //FONT-FAMILY
-$font-app-name: "Saira Stencil One", sans-serif;
-$font-text: "Source Sans 3", sans-serif;
-$font-title: "attackG";
-// COLORS OF THE APP
-$light-main: rgb(153, 204, 172);
-$dark-main: #4f654e;
-$darkest-main: rgb(56, 52, 46);
-$accent: #ffd353;
-$white: #cbcbcb;
-//SHADOW OUTLINE
-$outline:
-  8px 0px 0px $darkest-main,
-  -8px 0px 0px $dark-main,
-  0px 8px 0px $darkest-main,
-  0px -8px 0px $dark-main;
+$font: "attackG";
 
 * {
   margin: 0;
@@ -60,7 +42,7 @@ $outline:
   z-index: 100;
   color: $accent;
   font-size: clamp(1rem, 6vw, 8rem);
-  font-family: $font-title;
+  font-family: $font;
   margin-top: 25vh;
   text-shadow: $outline;
 }
@@ -71,4 +53,20 @@ $outline:
   top: -20vh;
   z-index: 1;
   width: 100vw;
+}
+footer {
+  margin-block-start: 10%;
+}
+
+.homepage__footer {
+  font-family: "blowBrush";
+  font-size: 2.5vw;
+  text-decoration: none;
+  color: $accent;
+  text-shadow:
+    3px 0px 0px $darkest-main,
+    -3px 0px 0px $dark-main,
+    0px 3px 0px $darkest-main,
+    0px -3px 0px $dark-main;
+  padding: 1%;
 }

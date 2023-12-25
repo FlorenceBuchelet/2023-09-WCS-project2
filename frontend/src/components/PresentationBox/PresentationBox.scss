@@ -1,16 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap");
+@import "../../Variables.scss";
 
-$font-app-name: "Saira Stencil One", sans-serif;
-$font-title: "Source Serif 4", serif;
-$font-text: "Source Sans 3", sans-serif;
-
-$light-main: rgb(153, 204, 172);
-$dark-main: #4f654e;
-$darkest-main: rgb(56, 52, 46);
-$accent: #ffd353;
-$white: #cbcbcb;
 $outline:
   2px 0px 0px $darkest-main,
   -2px 0px 0px $dark-main,
@@ -32,6 +21,7 @@ $outline:
   align-items: center;
   flex-direction: column;
   cursor: ns-resize;
+  text-shadow: 0px 0px 10px white;
 }
 
 .box__description::-webkit-scrollbar {

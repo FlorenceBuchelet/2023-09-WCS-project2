@@ -1,8 +1,4 @@
-$light-main: rgb(153, 204, 172);
-$dark-main: #4f654e;
-$darkest-main: #38342e;
-$accent: #ffd353;
-$white: #cbcbcb;
+@import "../../Variables.scss";
 
 .dropdown__Container {
   margin: 0 auto;

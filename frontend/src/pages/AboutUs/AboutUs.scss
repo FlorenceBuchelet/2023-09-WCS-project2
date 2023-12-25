@@ -6,7 +6,21 @@ $outline:
   0px 2px 0px $darkest-main,
   0px -2px 0px $dark-main;
 
-.card {
+.aboutUs {
+  display: flex;
+  padding-top: 15vh;
+  padding-inline: 1vw;
+  flex-wrap: wrap;
+  height: 85vh;
+  justify-content: space-around;
+  align-items: center;
+  scrollbar-color: white $accent;
+  background-image: url("/src/assets/wall-3.jpg");
+  background-position: top right;
+  background-size: 100% 100%;
+}
+.aboutUs__card {
+  background-image: none;
   background-color: rgba(255, 255, 255, 0.855);
   display: flex;
   flex-direction: row;
@@ -17,11 +31,12 @@ $outline:
   -webkit-box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.75);
   margin-bottom: 3vh;
+  text-align: center;
 }
-.card__picture {
-  width: 20vw;
+.aboutUs__img {
+  width: 15vw;
   height: auto;
-  border-radius: 10px;
+  border-radius: 50%;
   border-top: 7px double $accent;
   border-right: 7px double $accent;
   border-bottom: 7px double $accent;
@@ -31,54 +46,24 @@ $outline:
   -moz-box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.75);
   margin-right: 0.5rem;
 }
-.card__artist {
+.aboutUs__logos {
+  width: 6.5vw;
+  border-radius: 30%;
+  margin-inline: 1vw;
+  margin-top: 10%;
+}
+.aboutUs__description {
   margin-left: 0.3vw;
   width: 20vw;
   height: auto;
-  justify-content: space-around;
   background-color: transparent;
   background-image: none;
   border-inline: 0;
-  align-items: left;
 }
-.card__title {
+.aboutUs__name {
   margin-bottom: 1vh;
   color: $accent;
   text-shadow: $outline;
   text-align: center;
-  font-size: 1.5rem;
-}
-.card__description {
-  font-family: $font-text;
-  margin-bottom: 1rem;
-  font-size: clamp(12px, 1.6vw, 1.3rem);
-  line-height: 100%;
-}
-
-.card__type {
-  font-family: $font-text;
-}
-
-.card__location {
-  font-family: $font-text;
-  text-align: left;
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
-  background-image: none;
-  background-color: transparent;
-  border-inline: 0;
-}
-
-.artCard__iconMap {
-  width: 1.7vw;
-}
-
-@media screen and (max-height: 450px) {
-  .card {
-    width: 80%;
-  }
-  .card__artist {
-    width: auto;
-  }
+  font-size: 2.5vw;
 }

@@ -1,0 +1,38 @@
+@import "../../Variables.scss";
+
+.form {
+  display: flex;
+  padding-top: 15vh;
+  padding-inline: 1vw;
+  flex-wrap: wrap;
+  height: 85vh;
+  gap: 5%;
+  scrollbar-color: white $accent;
+  background-image: url("/src/assets/wall-3.jpg");
+  background-position: top right;
+  background-size: 100% 100%;
+}
+
+.form__explanation {
+  height: 30vh;
+  width: 30vw;
+}
+
+.form__img--top {
+  margin-top: 10%;
+  margin-bottom: -2%;
+}
+
+.form__img--top,
+.form__img--bottom {
+  width: 30.5vw;
+  height: 7vh;
+}
+
+.form__form {
+  display: flex;
+  flex-direction: column;
+  text-shadow:
+    2px 2px white,
+    -2px -2px white;
+}
