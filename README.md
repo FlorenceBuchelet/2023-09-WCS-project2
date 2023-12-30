@@ -4,6 +4,8 @@ Welcome to the second school project of our team: a virtual Museum on the Street
 
 This project lives locally on our devices and hasn't been deployed as of now.
 
+https://github.com/FlorenceBuchelet/2023-11-WCS-project2/assets/144147299/72829f64-cf25-469e-bd90-b1118dc72d22
+
 ---
 
 ## The Team
@@ -15,5 +17,5 @@ This project lives locally on our devices and hasn't been deployed as of now.
 
 ---
 
-
-We hope this project puts a smile on your faces.
+It's been a real pleasure to work on that topic. We all see our cities a little differently now.
+We hope this project brings a smile to your faces.
